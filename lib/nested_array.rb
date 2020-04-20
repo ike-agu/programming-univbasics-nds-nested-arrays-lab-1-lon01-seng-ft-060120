@@ -23,6 +23,7 @@ def assembled_matrix
   # Make sure conventional produce is first, on the 'zeroth' / 'bottom' shelf
   
   
+  
   assembled =[ CONVENTIONAL_PRODUCE,ORGANIC_PRODUCE  ]
   
 end
@@ -32,8 +33,11 @@ def sorted_matrix
   # uses the arrays of conventional and organic produce as before.
   # However, this time, sort each internal array alphabetically by the first character
   
-  assembled =[ CONVENTIONAL_PRODUCE,ORGANIC_PRODUCE  ].sort
+  CONVENTIONAL_PRODUCE.sort
+  ORGANIC_PRODUCE.sort
+  assembled =[ CONVENTIONAL_PRODUCE,ORGANIC_PRODUCE  ]
   
+  assembled
   
 end
 
