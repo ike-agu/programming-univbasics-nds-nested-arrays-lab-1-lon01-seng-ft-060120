@@ -24,7 +24,7 @@ def assembled_matrix
   
   
   assembled =[[CONVENTIONAL_PRODUCE = ["Grapefruit","Pineapple","Oranges","Watermelon","Eggplant"]
-]
+],
 [CONVENTIONAL_PRODUCE = ["Grapefruit","Pineapple", "Oranges", "Watermelon","Eggplant"]]
 ]
 end
