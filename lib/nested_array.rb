@@ -23,10 +23,7 @@ def assembled_matrix
   # Make sure conventional produce is first, on the 'zeroth' / 'bottom' shelf
   
   
-  assembled =[[CONVENTIONAL_PRODUCE = ["Grapefruit","Pineapple","Oranges","Watermelon","Eggplant"]
-],
-[CONVENTIONAL_PRODUCE = ["Grapefruit","Pineapple", "Oranges", "Watermelon","Eggplant"]]
-]
+  assembled =[]
 end
 
 def sorted_matrix
