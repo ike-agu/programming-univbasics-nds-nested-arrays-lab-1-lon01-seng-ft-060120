@@ -24,7 +24,7 @@ def assembled_matrix
   
   
   
-  assembled =[ CONVENTIONAL_PRODUCE,ORGANIC_PRODUCE  ]
+  assembled =[CONVENTIONAL_PRODUCE,ORGANIC_PRODUCE]
   
 end
 
@@ -35,7 +35,7 @@ def sorted_matrix
   
   
   
-  assembled =[ CONVENTIONAL_PRODUCE.sort , ORGANIC_PRODUCE.sort  ]
+  assembled =[ CONVENTIONAL_PRODUCE.sort,ORGANIC_PRODUCE.sort]
   
   assembled
   
