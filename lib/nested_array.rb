@@ -49,7 +49,7 @@ def matrix_lookup(matrix, row, column)
   
   matrix[1][1]
   
-matrix
+
   
 end
 
